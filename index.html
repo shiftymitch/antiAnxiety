@@ -10,11 +10,15 @@
     <script src="antiAnxiety.js"></script>
 </head>
 <body>
-    <div class="main">
+    <div class="main container">
         <div id="cover-art">
-            <img src="AntiAnxiety-EP-Artwork.jpg" alt="ep cover artwork">
+            <img class="img-fluid" src="AntiAnxiety-EP-Artwork.jpg" alt="ep cover artwork">
         </div>
         <div id="title">antiAnxiety();</div>
+        <div class="instructions">
+            <p>This tool evaluates a random number to determine if Anxiety is true or false. If true it will play the first song of the EP, if false it will play the second song. Like flipping a quarter, you may need to check for anxiety a few times to play the opposite song.</p>
+            <p>Thanks for playing!</p>
+        </div>
         <button class="btn btn-secondary" id="run-function" onclick="antiAnxiety();">Check For Anxiety</button>
         <div id="anxiety-result"></div>
         <div id="now-playing"></div>

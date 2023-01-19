@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
 }
 
 #title {
@@ -28,4 +28,8 @@ body {
 
 #cover-art img {
     width: 500px;
+}
+
+.instructions {
+    text-align: center;
 }
