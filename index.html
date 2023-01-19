@@ -5,16 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>antiAnxiety();</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="antiAnxiety.js"></script>
 </head>
 <body>
     <div class="main">
+        <div id="cover-art">
+            <img src="AntiAnxiety-EP-Artwork.jpg" alt="ep cover artwork">
+        </div>
         <div id="title">antiAnxiety();</div>
-        <button id="run-function" onclick="antiAnxiety();">Check For Anxiety</button>
+        <button class="btn btn-secondary" id="run-function" onclick="antiAnxiety();">Check For Anxiety</button>
         <div id="anxiety-result"></div>
         <div id="now-playing"></div>
-        <div id="player"></div>
+        <div id="player"></div> 
+        <a target="_blank" href="https://distrokid.com/hyperfollow/mitch231/antianxiety">
+            <button class="btn btn-secondary" id="pre-save">PRE-SAVE</button>
+        </a>
+        <div id="logo">
+            <img src="Mitch-Logo-White.png">
+        </div> 
     </div>
 </body>
 </html>

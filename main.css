@@ -21,3 +21,11 @@ body {
 .main div {
     margin-top: 10px;
 }
+
+#logo img {
+    width: 150px;
+}
+
+#cover-art img {
+    width: 500px;
+}
